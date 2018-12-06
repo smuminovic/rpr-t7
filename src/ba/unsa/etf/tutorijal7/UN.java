@@ -2,7 +2,9 @@ package ba.unsa.etf.tutorijal7;
 
 import java.util.ArrayList;
 
-public class UN {
+import java.io.Serializable;
+
+public class UN implements Serializable {
     private ArrayList<Drzava> drzave;
     public UN(){
         setDrzave(new ArrayList<Drzava>());
