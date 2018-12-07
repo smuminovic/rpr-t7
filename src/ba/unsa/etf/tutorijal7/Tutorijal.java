@@ -46,6 +46,9 @@ public class Tutorijal {
         }
         catch (Exception e) {
         }
+        finally {
+            ulaz.close();
+        }
         return gradovi;
     }
 
