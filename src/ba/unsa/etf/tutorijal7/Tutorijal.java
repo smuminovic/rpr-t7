@@ -12,7 +12,7 @@ public class Tutorijal {
         Scanner ulaz;
         String zarez = ",";
         try {
-            ulaz = new Scanner(new FileReader("mjerenja.txt"));
+            ulaz = new Scanner(new FileReader("mjerenja.txt.txt"));
         } catch (FileNotFoundException e) {
             System.out.println("Datoteka se ne može otvoriti.");
             return gradovi;
