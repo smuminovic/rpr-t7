@@ -112,7 +112,16 @@ public class Tutorijal {
         return un;
     }
 
-
+    public static void zapisiXml(UN un) {
+        try {
+            XMLEncoder izlaz = new XMLEncoder(new FileOutputStream("un.xml"));
+            izlaz.writeObject(un);
+            izlaz.close();
+        }
+        catch(Exception e) {
+            System.out.println("Greška: " + e);
+        }
+    }
 
     public static void main(String[] args) {
     }
