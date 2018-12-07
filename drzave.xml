@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+    <object class="ba.unsa.etf.rpr.tutorijal7.UN" id="UN0">
+        <void property="drzave">
+            <void method="add">
+                <object class="ba.unsa.etf.rpr.tutorijal7.Drzava">
+                    <void property="naziv">
+                        <string>Bosna i Hercegovina</string>
+                    </void>
+                    <void property="brojStanovnika">
+                        <int>3531159</int>
+                    </void>
+                    <void property="povrsina">
+                        <double>51179</double>
+                    </void>
+                    <void property="jedinica">
+                        <string>km2</string>
+                    </void>
+                    <void property="glavniGrad">
+                        <object class="ba.unsa.etf.rpr.tutorijal7.Grad">
+                            <void property="naziv">
+                                <string>Sarajevo</string>
+                            </void>
+                            <void property="brojStanovnika">
+                                <int>400000</int>
+                            </void>
+                        </object>
+                    </void>
+                </object>
+            </void>
+            <void method="add">
+                <object class="ba.unsa.etf.rpr.tutorijal7.Drzava">
+                    <void property="naziv">
+                        <string>Korea</string>
+                    </void>
+                    <void property="brojStanovnika">
+                        <int>51470000</int>
+                    </void>
+                    <void property="povrsina">
+                        <double>100210</double>
+                    </void>
+                    <void property="jedinica">
+                        <string>km2</string>
+                    </void>
+                    <void property="glavniGrad">
+                        <object class="ba.unsa.etf.rpr.tutorijal7.Grad">
+                            <void property="naziv">
+                                <string>Seoul</string>
+                            </void>
+                            <void property="brojStanovnika">
+                                <int>9766000</int>
+                            </void>
+                        </object>
+                    </void>
+                </object>
+            </void>
+        </void>
+    </object>
+</java>
